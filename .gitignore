@@ -4,3 +4,5 @@
 /src/Makevars
 *.so
 .Rhistory
+.Rproj.user
+*.Rproj
