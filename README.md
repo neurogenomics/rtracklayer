@@ -30,10 +30,10 @@ If you use `rtracklayer`, please cite:
 ## Installation
 
 ``` r
-if(!require("remotes")) install.packages("remotes")
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
-remotes::install_github("https://github.com/lawremi/rtracklayer")
-library(rtracklayer)
+BiocManager::install("rtracklayer")
 ```
 
 ## Documentation
